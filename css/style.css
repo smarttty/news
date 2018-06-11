@@ -1,0 +1,1123 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html, body {
+  height: 100%;
+  background-color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.25;
+  color: #222; }
+
+.container {
+  max-width: 1320px; }
+
+.card {
+  min-height: 500px;
+  max-height: 500px;
+  min-wight: 300px;
+  border: none;
+  border-radius: 0; }
+
+header .weather {
+  margin-top: 55px; }
+
+header .logo-block {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center; }
+
+header .social {
+  margin-top: 57px;
+  text-align: right; }
+  header .social ul {
+    list-style-type: none; }
+    header .social ul li {
+      display: inline; }
+      header .social ul li a {
+        color: #000; }
+        header .social ul li a:hover {
+          color: #ffb400; }
+        header .social ul li a .icon-social {
+          font-size: 22px;
+          margin-left: 20px; }
+
+header .h-mnu {
+  text-align: center;
+  margin-bottom: 30px; }
+  header .h-mnu ul {
+    list-style-type: none; }
+    header .h-mnu ul li {
+      display: inline;
+      padding-left: 10px;
+      padding-right: 10px; }
+      header .h-mnu ul li a {
+        color: #222;
+        text-transform: uppercase;
+        font-size: 16px;
+        letter-spacing: 1px; }
+        header .h-mnu ul li a:hover {
+          color: #ffb400; }
+
+#top-slider {
+  min-height: 605px;
+  margin-bottom: 10px; }
+  #top-slider .slide {
+    background-color: red;
+    width: 100%;
+    min-height: 605px; }
+  #top-slider .one-sld {
+    background: url(../images/sl-top-2.jpg) no-repeat center center;
+    background-size: cover; }
+  #top-slider .two-sld {
+    background: url(../images/sl-top-4.jpg) no-repeat center center;
+    background-size: cover; }
+  #top-slider .three-sld {
+    background: url(../images/sl-top-3.jpg) no-repeat center center;
+    background-size: cover; }
+
+#news {
+  margin-bottom: 20px; }
+  #news .news-title {
+    padding-top: 25px;
+    padding-bottom: 25px; }
+    #news .news-title h2 {
+      font-family: 'Roboto', sans-serif;
+      font-size: 28px;
+      line-height: 1.1;
+      font-weight: 700;
+      border-top: solid 4px #000;
+      border-bottom: solid 1px #000;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      text-transform: uppercase;
+      letter-spacing: 1px; }
+      #news .news-title h2 a {
+        color: #222; }
+        #news .news-title h2 a:hover {
+          color: #7b8595; }
+  #news .news-block {
+    min-height: 500px; }
+    #news .news-block .title {
+      font-family: 'Roboto', sans-serif;
+      font-size: 22px;
+      line-height: 1.1;
+      font-weight: 700;
+      margin-top: 15px;
+      margin-bottom: 10px; }
+      #news .news-block .title a {
+        color: #222; }
+        #news .news-block .title a:hover {
+          color: #7b8595; }
+    #news .news-block .desc {
+      font-size: 15px;
+      line-height: 1.25; }
+    #news .news-block .one-block .img-box {
+      min-height: 300px;
+      min-width: 300px;
+      background: url(../images/news-im-2.jpg) no-repeat center center;
+      background-size: cover; }
+  #news .cont-small-block {
+    margin-left: -10px;
+    margin-right: -10px; }
+    #news .cont-small-block .news-small-block {
+      max-height: 240px;
+      min-height: 240px; }
+      #news .cont-small-block .news-small-block .title {
+        font-family: 'Roboto', sans-serif;
+        font-size: 22px;
+        line-height: 1.1;
+        font-weight: 700;
+        margin-top: 15px;
+        margin-bottom: 10px; }
+        #news .cont-small-block .news-small-block .title a {
+          color: #222; }
+          #news .cont-small-block .news-small-block .title a:hover {
+            color: #7b8595; }
+      #news .cont-small-block .news-small-block .three-block .img-box {
+        min-height: 140px;
+        min-width: 300px;
+        background: url(../images/news-im-2.jpg) no-repeat center center;
+        background-size: cover; }
+  #news .gray-block {
+    background-color: #efefef;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px; }
+    #news .gray-block .title-grey-box {
+      font-family: 'Roboto', sans-serif;
+      font-size: 22px;
+      line-height: 1.1;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 20px; }
+    #news .gray-block .list-grey-box ul {
+      list-style-type: none; }
+      #news .gray-block .list-grey-box ul li {
+        margin-bottom: 10px; }
+        #news .gray-block .list-grey-box ul li .data-grey-box {
+          font-size: 13px;
+          margin-bottom: 5px;
+          padding-left: 0px; }
+          #news .gray-block .list-grey-box ul li .data-grey-box::before {
+            content: "R-re";
+            color: #000;
+            width: 10px;
+            height: 10px;
+            background-color: #7b8595;
+            margin-right: 10px; }
+        #news .gray-block .list-grey-box ul li a {
+          color: #222; }
+          #news .gray-block .list-grey-box ul li a:hover {
+            color: #7b8595; }
+    #news .gray-block .btn-grey-box {
+      position: absolute;
+      bottom: 40px;
+      left: 50%;
+      margin-left: -80px; }
+      #news .gray-block .btn-grey-box a {
+        font-size: 16px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: #222;
+        border: solid 1px #000;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 20px;
+        padding-right: 20px; }
+        #news .gray-block .btn-grey-box a:hover {
+          color: #7b8595;
+          border: solid 1px #7b8595; }
+
+#pers {
+  margin-bottom: 20px; }
+  #pers .pers-title {
+    padding-top: 25px;
+    padding-bottom: 25px; }
+    #pers .pers-title h2 {
+      font-family: 'Roboto', sans-serif;
+      font-size: 28px;
+      line-height: 1.1;
+      font-weight: 700;
+      border-top: solid 4px #000;
+      border-bottom: solid 1px #000;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      text-transform: uppercase;
+      letter-spacing: 1px; }
+      #pers .pers-title h2 a {
+        color: #222; }
+        #pers .pers-title h2 a:hover {
+          color: #0065d1; }
+  #pers .rubricator {
+    margin-top: 5px;
+    margin-bottom: 20px; }
+    #pers .rubricator ul {
+      list-style-type: none;
+      border-bottom: solid 1px #000;
+      padding-bottom: 36px; }
+      #pers .rubricator ul li {
+        display: inline; }
+        #pers .rubricator ul li a {
+          font-size: 14px;
+          color: #222;
+          border: solid 1px #222;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          padding-left: 15px;
+          padding-right: 15px;
+          margin-right: 20px; }
+          #pers .rubricator ul li a:hover {
+            color: #0065d1;
+            border: solid 1px #0065d1; }
+  #pers .pers-block {
+    min-height: 500px; }
+    #pers .pers-block .rubr .btn-outline-primary {
+      font-size: 13px;
+      line-height: 1;
+      text-transform: lowercase;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      padding-left: 8px;
+      padding-right: 8px;
+      margin-top: 10px;
+      margin-bottom: 8px;
+      border-radius: 0; }
+    #pers .pers-block .title {
+      font-family: 'Roboto', sans-serif;
+      font-size: 22px;
+      line-height: 1.1;
+      font-weight: 700;
+      margin-bottom: 10px; }
+      #pers .pers-block .title a {
+        color: #222; }
+        #pers .pers-block .title a:hover {
+          color: #0065d1; }
+    #pers .pers-block .desc {
+      font-size: 15px;
+      line-height: 1.25; }
+    #pers .pers-block .one-block {
+      background: url(../images/news-im-1.jpg) no-repeat center center; }
+      #pers .pers-block .one-block .rubr-invert {
+        padding-top: 15px;
+        padding-left: 15px; }
+        #pers .pers-block .one-block .rubr-invert .btn-outline-light {
+          font-size: 13px;
+          line-height: 1;
+          text-transform: lowercase;
+          padding-top: 5px;
+          padding-bottom: 5px;
+          padding-left: 8px;
+          padding-right: 8px;
+          border-radius: 0; }
+      #pers .pers-block .one-block .content-block {
+        position: absolute;
+        bottom: 0;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 15px;
+        padding-right: 15px; }
+        #pers .pers-block .one-block .content-block .title-invert {
+          margin-bottom: 10px; }
+          #pers .pers-block .one-block .content-block .title-invert a {
+            font-family: 'Roboto', sans-serif;
+            font-size: 22px;
+            line-height: 1.1;
+            font-weight: 700;
+            color: #fff; }
+        #pers .pers-block .one-block .content-block .desc-invert {
+          color: #fff; }
+    #pers .pers-block .gap-card {
+      margin-top: 20px; }
+    #pers .pers-block .three-block .img-box {
+      min-height: 300px;
+      min-width: 300px;
+      background: url(../images/news-im-2.jpg) no-repeat center center;
+      background-size: cover; }
+    #pers .pers-block .five-block .img-box {
+      min-height: 300px;
+      min-width: 300px;
+      background: url(../images/news-im-3.jpg) no-repeat center center;
+      background-size: cover; }
+    #pers .pers-block .six-block .img-box {
+      min-height: 300px;
+      min-width: 300px;
+      background: url(../images/news-im-4.jpg) no-repeat center center;
+      background-size: cover; }
+    #pers .pers-block .seven-block .img-box {
+      min-height: 300px;
+      min-width: 300px;
+      background: url(../images/news-im-5.jpg) no-repeat center center;
+      background-size: cover; }
+    #pers .pers-block .four-block {
+      background-color: #efefef;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      padding-left: 15px;
+      padding-right: 15px; }
+      #pers .pers-block .four-block .title-grey-box {
+        font-family: 'Roboto', sans-serif;
+        font-size: 22px;
+        line-height: 1.1;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin-bottom: 20px; }
+      #pers .pers-block .four-block .list-grey-box ul {
+        list-style-type: none; }
+        #pers .pers-block .four-block .list-grey-box ul li {
+          margin-bottom: 10px; }
+          #pers .pers-block .four-block .list-grey-box ul li .data-grey-box {
+            font-size: 13px;
+            margin-bottom: 5px;
+            padding-left: 0px; }
+            #pers .pers-block .four-block .list-grey-box ul li .data-grey-box::before {
+              content: "R-re";
+              color: #000;
+              width: 10px;
+              height: 10px;
+              background-color: #0065d1;
+              margin-right: 10px; }
+          #pers .pers-block .four-block .list-grey-box ul li a {
+            color: #222; }
+            #pers .pers-block .four-block .list-grey-box ul li a:hover {
+              color: #0065d1; }
+    #pers .pers-block .btn-grey-box {
+      position: absolute;
+      bottom: 40px;
+      left: 50%;
+      margin-left: -75px; }
+      #pers .pers-block .btn-grey-box a {
+        font-size: 16px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: #222;
+        border: solid 1px #000;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 20px;
+        padding-right: 20px; }
+        #pers .pers-block .btn-grey-box a:hover {
+          color: #0065d1;
+          border: solid 1px #0065d1; }
+
+#food {
+  margin-bottom: 20px; }
+  #food .food-title {
+    padding-top: 25px;
+    padding-bottom: 25px; }
+    #food .food-title h2 {
+      font-family: 'Roboto', sans-serif;
+      font-size: 28px;
+      line-height: 1.1;
+      font-weight: 700;
+      border-top: solid 4px #000;
+      border-bottom: solid 1px #000;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      text-transform: uppercase;
+      letter-spacing: 1px; }
+      #food .food-title h2 a {
+        color: #222; }
+        #food .food-title h2 a:hover {
+          color: #28a745; }
+  #food .rubricator {
+    margin-top: 5px;
+    margin-bottom: 20px; }
+    #food .rubricator ul {
+      list-style-type: none;
+      border-bottom: solid 1px #000;
+      padding-bottom: 36px; }
+      #food .rubricator ul li {
+        display: inline; }
+        #food .rubricator ul li a {
+          font-size: 14px;
+          color: #222;
+          border: solid 1px #222;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          padding-left: 15px;
+          padding-right: 15px;
+          margin-right: 20px; }
+          #food .rubricator ul li a:hover {
+            color: #28a745;
+            border: solid 1px #28a745; }
+  #food .food-block {
+    min-height: 500px; }
+    #food .food-block .rubr .btn-outline-success {
+      font-size: 13px;
+      line-height: 1;
+      text-transform: lowercase;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      padding-left: 8px;
+      padding-right: 8px;
+      margin-top: 10px;
+      margin-bottom: 8px;
+      border-radius: 0; }
+    #food .food-block .title {
+      font-family: 'Roboto', sans-serif;
+      font-size: 22px;
+      line-height: 1.1;
+      font-weight: 700;
+      margin-bottom: 10px; }
+      #food .food-block .title a {
+        color: #222; }
+        #food .food-block .title a:hover {
+          color: #28a745; }
+    #food .food-block .desc {
+      font-size: 15px;
+      line-height: 1.25; }
+    #food .food-block .one-block {
+      background: url(../images/news-im-1.jpg) no-repeat center center; }
+      #food .food-block .one-block .rubr-invert {
+        padding-top: 15px;
+        padding-left: 15px; }
+        #food .food-block .one-block .rubr-invert .btn-outline-light {
+          font-size: 13px;
+          line-height: 1;
+          text-transform: lowercase;
+          padding-top: 5px;
+          padding-bottom: 5px;
+          padding-left: 8px;
+          padding-right: 8px;
+          border-radius: 0; }
+      #food .food-block .one-block .content-block {
+        position: absolute;
+        bottom: 0;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 15px;
+        padding-right: 15px; }
+        #food .food-block .one-block .content-block .title-invert {
+          margin-bottom: 10px; }
+          #food .food-block .one-block .content-block .title-invert a {
+            font-family: 'Roboto', sans-serif;
+            font-size: 22px;
+            line-height: 1.1;
+            font-weight: 700;
+            color: #fff; }
+        #food .food-block .one-block .content-block .desc-invert {
+          color: #fff; }
+    #food .food-block .gap-card {
+      margin-top: 20px; }
+    #food .food-block .three-block .img-box {
+      min-height: 300px;
+      min-width: 300px;
+      background: url(../images/news-im-2.jpg) no-repeat center center;
+      background-size: cover; }
+    #food .food-block .five-block .img-box {
+      min-height: 300px;
+      min-width: 300px;
+      background: url(../images/news-im-3.jpg) no-repeat center center;
+      background-size: cover; }
+    #food .food-block .six-block .img-box {
+      min-height: 300px;
+      min-width: 300px;
+      background: url(../images/news-im-4.jpg) no-repeat center center;
+      background-size: cover; }
+    #food .food-block .seven-block .img-box {
+      min-height: 300px;
+      min-width: 300px;
+      background: url(../images/news-im-5.jpg) no-repeat center center;
+      background-size: cover; }
+    #food .food-block .four-block {
+      background-color: #efefef;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      padding-left: 15px;
+      padding-right: 15px; }
+      #food .food-block .four-block .title-grey-box {
+        font-family: 'Roboto', sans-serif;
+        font-size: 22px;
+        line-height: 1.1;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin-bottom: 20px; }
+      #food .food-block .four-block .list-grey-box ul {
+        list-style-type: none; }
+        #food .food-block .four-block .list-grey-box ul li {
+          margin-bottom: 10px; }
+          #food .food-block .four-block .list-grey-box ul li .data-grey-box {
+            font-size: 13px;
+            margin-bottom: 5px;
+            padding-left: 0px; }
+            #food .food-block .four-block .list-grey-box ul li .data-grey-box::before {
+              content: "R-re";
+              color: #000;
+              width: 10px;
+              height: 10px;
+              background-color: #28a745;
+              margin-right: 10px; }
+          #food .food-block .four-block .list-grey-box ul li a {
+            color: #222; }
+            #food .food-block .four-block .list-grey-box ul li a:hover {
+              color: #28a745; }
+    #food .food-block .btn-grey-box {
+      position: absolute;
+      bottom: 40px;
+      left: 50%;
+      margin-left: -75px; }
+      #food .food-block .btn-grey-box a {
+        font-size: 16px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: #222;
+        border: solid 1px #000;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 20px;
+        padding-right: 20px; }
+        #food .food-block .btn-grey-box a:hover {
+          color: #28a745;
+          border: solid 1px #28a745; }
+
+#move {
+  margin-bottom: 20px; }
+  #move .move-title {
+    padding-top: 25px;
+    padding-bottom: 25px; }
+    #move .move-title h2 {
+      font-family: 'Roboto', sans-serif;
+      font-size: 28px;
+      line-height: 1.1;
+      font-weight: 700;
+      border-top: solid 4px #000;
+      border-bottom: solid 1px #000;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      text-transform: uppercase;
+      letter-spacing: 1px; }
+      #move .move-title h2 a {
+        color: #222; }
+        #move .move-title h2 a:hover {
+          color: #17a2b8; }
+  #move .rubricator {
+    margin-top: 5px;
+    margin-bottom: 20px; }
+    #move .rubricator ul {
+      list-style-type: none;
+      border-bottom: solid 1px #000;
+      padding-bottom: 36px; }
+      #move .rubricator ul li {
+        display: inline; }
+        #move .rubricator ul li a {
+          font-size: 14px;
+          color: #222;
+          border: solid 1px #222;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          padding-left: 15px;
+          padding-right: 15px;
+          margin-right: 20px; }
+          #move .rubricator ul li a:hover {
+            color: #17a2b8;
+            border: solid 1px #17a2b8; }
+  #move .move-block {
+    min-height: 500px; }
+    #move .move-block .rubr .btn-outline-info {
+      font-size: 13px;
+      line-height: 1;
+      text-transform: lowercase;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      padding-left: 8px;
+      padding-right: 8px;
+      margin-top: 10px;
+      margin-bottom: 8px;
+      border-radius: 0; }
+    #move .move-block .title {
+      font-family: 'Roboto', sans-serif;
+      font-size: 22px;
+      line-height: 1.1;
+      font-weight: 700;
+      margin-bottom: 10px; }
+      #move .move-block .title a {
+        color: #222; }
+        #move .move-block .title a:hover {
+          color: #17a2b8; }
+    #move .move-block .desc {
+      font-size: 15px;
+      line-height: 1.25; }
+    #move .move-block .one-block {
+      background: url(../images/news-im-1.jpg) no-repeat center center; }
+      #move .move-block .one-block .rubr-invert {
+        padding-top: 15px;
+        padding-left: 15px; }
+        #move .move-block .one-block .rubr-invert .btn-outline-light {
+          font-size: 13px;
+          line-height: 1;
+          text-transform: lowercase;
+          padding-top: 5px;
+          padding-bottom: 5px;
+          padding-left: 8px;
+          padding-right: 8px;
+          border-radius: 0; }
+      #move .move-block .one-block .content-block {
+        position: absolute;
+        bottom: 0;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 15px;
+        padding-right: 15px; }
+        #move .move-block .one-block .content-block .title-invert {
+          margin-bottom: 10px; }
+          #move .move-block .one-block .content-block .title-invert a {
+            font-family: 'Roboto', sans-serif;
+            font-size: 22px;
+            line-height: 1.1;
+            font-weight: 700;
+            color: #fff; }
+        #move .move-block .one-block .content-block .desc-invert {
+          color: #fff; }
+    #move .move-block .gap-card {
+      margin-top: 20px; }
+    #move .move-block .three-block .img-box {
+      min-height: 300px;
+      min-width: 300px;
+      background: url(../images/news-im-2.jpg) no-repeat center center;
+      background-size: cover; }
+    #move .move-block .five-block .img-box {
+      min-height: 300px;
+      min-width: 300px;
+      background: url(../images/news-im-3.jpg) no-repeat center center;
+      background-size: cover; }
+    #move .move-block .six-block .img-box {
+      min-height: 300px;
+      min-width: 300px;
+      background: url(../images/news-im-4.jpg) no-repeat center center;
+      background-size: cover; }
+    #move .move-block .seven-block .img-box {
+      min-height: 300px;
+      min-width: 300px;
+      background: url(../images/news-im-5.jpg) no-repeat center center;
+      background-size: cover; }
+    #move .move-block .four-block {
+      background-color: #efefef;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      padding-left: 15px;
+      padding-right: 15px; }
+      #move .move-block .four-block .title-grey-box {
+        font-family: 'Roboto', sans-serif;
+        font-size: 22px;
+        line-height: 1.1;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin-bottom: 20px; }
+      #move .move-block .four-block .list-grey-box ul {
+        list-style-type: none; }
+        #move .move-block .four-block .list-grey-box ul li {
+          margin-bottom: 10px; }
+          #move .move-block .four-block .list-grey-box ul li .data-grey-box {
+            font-size: 13px;
+            margin-bottom: 5px;
+            padding-left: 0px; }
+            #move .move-block .four-block .list-grey-box ul li .data-grey-box::before {
+              content: "R-re";
+              color: #000;
+              width: 10px;
+              height: 10px;
+              background-color: #17a2b8;
+              margin-right: 10px; }
+          #move .move-block .four-block .list-grey-box ul li a {
+            color: #222; }
+            #move .move-block .four-block .list-grey-box ul li a:hover {
+              color: #17a2b8; }
+    #move .move-block .btn-grey-box {
+      position: absolute;
+      bottom: 40px;
+      left: 50%;
+      margin-left: -75px; }
+      #move .move-block .btn-grey-box a {
+        font-size: 16px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: #222;
+        border: solid 1px #000;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 20px;
+        padding-right: 20px; }
+        #move .move-block .btn-grey-box a:hover {
+          color: #17a2b8;
+          border: solid 1px #17a2b8; }
+
+#mind {
+  margin-bottom: 20px; }
+  #mind .mind-title {
+    padding-top: 25px;
+    padding-bottom: 25px; }
+    #mind .mind-title h2 {
+      font-family: 'Roboto', sans-serif;
+      font-size: 28px;
+      line-height: 1.1;
+      font-weight: 700;
+      border-top: solid 4px #000;
+      border-bottom: solid 1px #000;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      text-transform: uppercase;
+      letter-spacing: 1px; }
+      #mind .mind-title h2 a {
+        color: #222; }
+        #mind .mind-title h2 a:hover {
+          color: #ef6704; }
+  #mind .rubricator {
+    margin-top: 5px;
+    margin-bottom: 20px; }
+    #mind .rubricator ul {
+      list-style-type: none;
+      border-bottom: solid 1px #000;
+      padding-bottom: 36px; }
+      #mind .rubricator ul li {
+        display: inline; }
+        #mind .rubricator ul li a {
+          font-size: 14px;
+          color: #222;
+          border: solid 1px #222;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          padding-left: 15px;
+          padding-right: 15px;
+          margin-right: 20px; }
+          #mind .rubricator ul li a:hover {
+            color: #ef6704;
+            border: solid 1px #ef6704; }
+  #mind .mind-block {
+    min-height: 500px; }
+    #mind .mind-block .rubr .btn-outline-danger {
+      font-size: 13px;
+      line-height: 1;
+      text-transform: lowercase;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      padding-left: 8px;
+      padding-right: 8px;
+      margin-top: 10px;
+      margin-bottom: 8px;
+      border-radius: 0;
+      color: #ef6704;
+      background-color: transparent;
+      background-image: none;
+      border-color: #ef6704; }
+      #mind .mind-block .rubr .btn-outline-danger:hover {
+        color: #fff;
+        background-color: #ef6704;
+        border-color: #ef6704; }
+    #mind .mind-block .title {
+      font-family: 'Roboto', sans-serif;
+      font-size: 22px;
+      line-height: 1.1;
+      font-weight: 700;
+      margin-bottom: 10px; }
+      #mind .mind-block .title a {
+        color: #222; }
+        #mind .mind-block .title a:hover {
+          color: #ef6704; }
+    #mind .mind-block .desc {
+      font-size: 15px;
+      line-height: 1.25; }
+    #mind .mind-block .one-block {
+      background: url(../images/news-im-1.jpg) no-repeat center center; }
+      #mind .mind-block .one-block .rubr-invert {
+        padding-top: 15px;
+        padding-left: 15px; }
+        #mind .mind-block .one-block .rubr-invert .btn-outline-light {
+          font-size: 13px;
+          line-height: 1;
+          text-transform: lowercase;
+          padding-top: 5px;
+          padding-bottom: 5px;
+          padding-left: 8px;
+          padding-right: 8px;
+          border-radius: 0; }
+      #mind .mind-block .one-block .content-block {
+        position: absolute;
+        bottom: 0;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 15px;
+        padding-right: 15px; }
+        #mind .mind-block .one-block .content-block .title-invert {
+          margin-bottom: 10px; }
+          #mind .mind-block .one-block .content-block .title-invert a {
+            font-family: 'Roboto', sans-serif;
+            font-size: 22px;
+            line-height: 1.1;
+            font-weight: 700;
+            color: #fff; }
+        #mind .mind-block .one-block .content-block .desc-invert {
+          color: #fff; }
+    #mind .mind-block .gap-card {
+      margin-top: 20px; }
+    #mind .mind-block .three-block .img-box {
+      min-height: 300px;
+      min-width: 300px;
+      background: url(../images/news-im-2.jpg) no-repeat center center;
+      background-size: cover; }
+    #mind .mind-block .five-block .img-box {
+      min-height: 300px;
+      min-width: 300px;
+      background: url(../images/news-im-3.jpg) no-repeat center center;
+      background-size: cover; }
+    #mind .mind-block .six-block .img-box {
+      min-height: 300px;
+      min-width: 300px;
+      background: url(../images/news-im-4.jpg) no-repeat center center;
+      background-size: cover; }
+    #mind .mind-block .seven-block .img-box {
+      min-height: 300px;
+      min-width: 300px;
+      background: url(../images/news-im-5.jpg) no-repeat center center;
+      background-size: cover; }
+    #mind .mind-block .four-block {
+      background-color: #efefef;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      padding-left: 15px;
+      padding-right: 15px; }
+      #mind .mind-block .four-block .title-grey-box {
+        font-family: 'Roboto', sans-serif;
+        font-size: 22px;
+        line-height: 1.1;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin-bottom: 20px; }
+      #mind .mind-block .four-block .list-grey-box ul {
+        list-style-type: none; }
+        #mind .mind-block .four-block .list-grey-box ul li {
+          margin-bottom: 10px; }
+          #mind .mind-block .four-block .list-grey-box ul li .data-grey-box {
+            font-size: 13px;
+            margin-bottom: 5px;
+            padding-left: 0px; }
+            #mind .mind-block .four-block .list-grey-box ul li .data-grey-box::before {
+              content: "R-re";
+              color: #000;
+              width: 10px;
+              height: 10px;
+              background-color: #ef6704;
+              margin-right: 10px; }
+          #mind .mind-block .four-block .list-grey-box ul li a {
+            color: #222; }
+            #mind .mind-block .four-block .list-grey-box ul li a:hover {
+              color: #ef6704; }
+    #mind .mind-block .btn-grey-box {
+      position: absolute;
+      bottom: 40px;
+      left: 50%;
+      margin-left: -75px; }
+      #mind .mind-block .btn-grey-box a {
+        font-size: 16px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: #222;
+        border: solid 1px #000;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 20px;
+        padding-right: 20px; }
+        #mind .mind-block .btn-grey-box a:hover {
+          color: #ef6704;
+          border: solid 1px #ef6704; }
+
+#health {
+  margin-bottom: 20px; }
+  #health .health-title {
+    padding-top: 25px;
+    padding-bottom: 25px; }
+    #health .health-title h2 {
+      font-family: 'Roboto', sans-serif;
+      font-size: 28px;
+      line-height: 1.1;
+      font-weight: 700;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      border-top: solid 4px #000;
+      border-bottom: solid 1px #000; }
+      #health .health-title h2 a {
+        color: #222; }
+        #health .health-title h2 a:hover {
+          color: #c400db; }
+  #health .rubricator {
+    margin-top: 5px;
+    margin-bottom: 20px; }
+    #health .rubricator ul {
+      list-style-type: none;
+      border-bottom: solid 1px #000;
+      padding-bottom: 36px; }
+      #health .rubricator ul li {
+        display: inline; }
+        #health .rubricator ul li a {
+          font-size: 14px;
+          color: #222;
+          border: solid 1px #222;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          padding-left: 15px;
+          padding-right: 15px;
+          margin-right: 20px; }
+          #health .rubricator ul li a:hover {
+            color: #c400db;
+            border: solid 1px #c400db; }
+  #health .health-block {
+    min-height: 500px; }
+    #health .health-block .rubr .btn-outline-warning {
+      font-size: 13px;
+      line-height: 1;
+      text-transform: lowercase;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      padding-left: 8px;
+      padding-right: 8px;
+      margin-top: 10px;
+      margin-bottom: 8px;
+      border-radius: 0;
+      color: #c400db;
+      background-color: transparent;
+      background-image: none;
+      border-color: #c400db; }
+      #health .health-block .rubr .btn-outline-warning:hover {
+        color: #fff;
+        background-color: #c400db;
+        border-color: #c400db; }
+    #health .health-block .title {
+      font-family: 'Roboto', sans-serif;
+      font-size: 22px;
+      line-height: 1.1;
+      font-weight: 700;
+      margin-bottom: 10px; }
+      #health .health-block .title a {
+        color: #222; }
+        #health .health-block .title a:hover {
+          color: #c400db; }
+    #health .health-block .desc {
+      font-size: 15px;
+      line-height: 1.25; }
+    #health .health-block .one-block {
+      background: url(../images/news-im-1.jpg) no-repeat center center; }
+      #health .health-block .one-block .rubr-invert {
+        padding-top: 15px;
+        padding-left: 15px; }
+        #health .health-block .one-block .rubr-invert .btn-outline-light {
+          font-size: 13px;
+          line-height: 1;
+          text-transform: lowercase;
+          padding-top: 5px;
+          padding-bottom: 5px;
+          padding-left: 8px;
+          padding-right: 8px;
+          border-radius: 0; }
+      #health .health-block .one-block .content-block {
+        position: absolute;
+        bottom: 0;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 15px;
+        padding-right: 15px; }
+        #health .health-block .one-block .content-block .title-invert {
+          margin-bottom: 10px; }
+          #health .health-block .one-block .content-block .title-invert a {
+            font-family: 'Roboto', sans-serif;
+            font-size: 22px;
+            line-height: 1.1;
+            font-weight: 700;
+            color: #fff; }
+        #health .health-block .one-block .content-block .desc-invert {
+          color: #fff; }
+    #health .health-block .gap-card {
+      margin-top: 20px; }
+    #health .health-block .three-block .img-box {
+      min-height: 300px;
+      min-width: 300px;
+      background: url(../images/news-im-2.jpg) no-repeat center center;
+      background-size: cover; }
+    #health .health-block .five-block .img-box {
+      min-height: 300px;
+      min-width: 300px;
+      background: url(../images/news-im-3.jpg) no-repeat center center;
+      background-size: cover; }
+    #health .health-block .six-block .img-box {
+      min-height: 300px;
+      min-width: 300px;
+      background: url(../images/news-im-4.jpg) no-repeat center center;
+      background-size: cover; }
+    #health .health-block .seven-block .img-box {
+      min-height: 300px;
+      min-width: 300px;
+      background: url(../images/news-im-5.jpg) no-repeat center center;
+      background-size: cover; }
+    #health .health-block .four-block {
+      background-color: #efefef;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      padding-left: 15px;
+      padding-right: 15px; }
+      #health .health-block .four-block .title-grey-box {
+        font-family: 'Roboto', sans-serif;
+        font-size: 22px;
+        line-height: 1.1;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin-bottom: 20px; }
+      #health .health-block .four-block .list-grey-box ul {
+        list-style-type: none; }
+        #health .health-block .four-block .list-grey-box ul li {
+          margin-bottom: 10px; }
+          #health .health-block .four-block .list-grey-box ul li .data-grey-box {
+            font-size: 13px;
+            margin-bottom: 5px;
+            padding-left: 0px; }
+            #health .health-block .four-block .list-grey-box ul li .data-grey-box::before {
+              content: "R-re";
+              color: #000;
+              width: 10px;
+              height: 10px;
+              background-color: #c400db;
+              margin-right: 10px; }
+          #health .health-block .four-block .list-grey-box ul li a {
+            color: #222; }
+            #health .health-block .four-block .list-grey-box ul li a:hover {
+              color: #c400db; }
+    #health .health-block .btn-grey-box {
+      position: absolute;
+      bottom: 40px;
+      left: 50%;
+      margin-left: -75px; }
+      #health .health-block .btn-grey-box a {
+        font-size: 16px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: #222;
+        border: solid 1px #000;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 20px;
+        padding-right: 20px; }
+        #health .health-block .btn-grey-box a:hover {
+          color: #c400db;
+          border: solid 1px #c400db; }
+
+footer {
+  width: 100%;
+  margin-top: 100px;
+  background-color: #1a1a1a; }
+  footer .banner-cont {
+    margin-top: 50px; }
+    footer .banner-cont .banner-foot {
+      display: block;
+      max-width: 960px;
+      min-height: 200px;
+      background-color: #888; }
+  footer .logo-foot {
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 35px; }
+  footer .soc-foot {
+    text-align: center;
+    margin-bottom: 20px; }
+    footer .soc-foot ul {
+      list-style-type: none; }
+      footer .soc-foot ul li {
+        display: inline; }
+        footer .soc-foot ul li a {
+          color: #fff; }
+          footer .soc-foot ul li a:hover {
+            color: #ffb400; }
+          footer .soc-foot ul li a .icon-social {
+            font-size: 22px;
+            margin-left: 20px; }
+  footer .mnu-foot {
+    text-align: center;
+    margin-bottom: 20px; }
+    footer .mnu-foot ul {
+      list-style-type: none; }
+      footer .mnu-foot ul li {
+        display: inline;
+        padding-left: 10px;
+        padding-right: 10px; }
+        footer .mnu-foot ul li a {
+          color: #fff;
+          letter-spacing: 1px; }
+          footer .mnu-foot ul li a:hover {
+            color: #ffb400; }
+  footer .copy-foot {
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 40px; }
